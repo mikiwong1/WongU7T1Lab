@@ -21,5 +21,7 @@ public class CatRunner {
             cats.get(i).setName(name);
         }
         System.out.println(cats);
+        cats.add(new Cat("SAM"));
+        System.out.println(cats);
     }
 }
